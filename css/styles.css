@@ -9,9 +9,13 @@ body{
     color: black;
 }
 .intro{
-    height: 120px;
-    width: 120px;
+    height: 180px;
+    width: 180px;
     border-radius: 100%;
+}
+.home-content{
+    margin: auto;
+    font-size: 80px;
 }
 .about {
     height: 550px;
@@ -22,24 +26,31 @@ body{
     height: 550px;
     background-color: rgb(0, 0, 0);
     color: white;
+    text-align: left;
 }
 .projects {
     background-color: rgb(255,255,255);
     color: black;
 }
 .instagram{
-    height: 300px;
+    height: 400px;
+    background-color: rgb(219, 219, 219)
 }
 .github{
-    height: 300px;
+    height: 400px;
+    background-color: rgb(219, 219, 219)
 }
 .news{
-    height: 300px;
+    height: 400px;
+    background-color: rgb(219, 219, 219)
 }
 .project-image{
-    height: 250px;
+    height: 375px;
     width: 80%;
     margin: 0 auto;
+    border: 1px solid #ddd; /* Gray border */
+    /* border-radius: 4px;  Rounded border */
+    padding: 5px;
 }
 .contacts{
     height: 100px;
@@ -85,4 +96,12 @@ ul{
   
   #myBtn:hover {
     background-color: #555;
+  }
+  .me{
+      margin: auto;
+      font-size: 30px;
+      padding: 100px 50px 50px 50px;
+  }
+  .p-proj{
+    font-size: 16px;
   }
